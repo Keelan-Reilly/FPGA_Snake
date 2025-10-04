@@ -1,4 +1,4 @@
-# Snake_FPGA
+# FPGA_Snake
 
 A simple Snake game implemented in Verilog for the Basys 3 FPGA board.
 
