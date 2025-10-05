@@ -197,6 +197,7 @@ VL_ATTR_COLD void Vtb_snake_map___024root___ctor_var_reset(Vtb_snake_map___024ro
     vlSelf->tb_snake_map__DOT__unnamedblk1__DOT__tx = VL_SCOPED_RAND_RESET_I(32, __VscopeHash, 9980860923571160002ull);
     vlSelf->tb_snake_map__DOT__unnamedblk1__DOT__ty = VL_SCOPED_RAND_RESET_I(32, __VscopeHash, 15391073059880596801ull);
     vlSelf->tb_snake_map__DOT____Vlvbound_h44b69fa1__0 = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 5812681233330731677ull);
+    vlSelf->tb_snake_map__DOT__dut__DOT__tail_valid = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 475392933928700986ull);
     for (int __Vi0 = 0; __Vi0 < 6; ++__Vi0) {
         vlSelf->tb_snake_map__DOT__dut__DOT__occ[__Vi0] = VL_SCOPED_RAND_RESET_I(8, __VscopeHash, 1243388685862497164ull);
     }

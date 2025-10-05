@@ -81,11 +81,12 @@ void Vtb_snake_map___024root__trace_chg_0_sub_0(Vtb_snake_map___024root* vlSelf,
                                    : 0U) >> (IData)(vlSelfRef.tb_snake_map__DOT__q_x)))));
     bufp->chgBit(oldp+41,(((IData)(vlSelfRef.tb_snake_map__DOT__tick) 
                            & ((~ ((IData)(vlSelfRef.tb_snake_map__DOT__will_pop) 
-                                  & (((IData)(vlSelfRef.tb_snake_map__DOT__next_x) 
-                                      == (7U & ((IData)(vlSelfRef.tb_snake_map__DOT__tail_xy) 
-                                                >> 3U))) 
-                                     & ((IData)(vlSelfRef.tb_snake_map__DOT__next_y) 
-                                        == (7U & (IData)(vlSelfRef.tb_snake_map__DOT__tail_xy)))))) 
+                                  & ((IData)(vlSelfRef.tb_snake_map__DOT__dut__DOT__tail_valid) 
+                                     & (((IData)(vlSelfRef.tb_snake_map__DOT__next_x) 
+                                         == (7U & ((IData)(vlSelfRef.tb_snake_map__DOT__tail_xy) 
+                                                   >> 3U))) 
+                                        & ((IData)(vlSelfRef.tb_snake_map__DOT__next_y) 
+                                           == (7U & (IData)(vlSelfRef.tb_snake_map__DOT__tail_xy))))))) 
                               & (((5U >= (IData)(vlSelfRef.tb_snake_map__DOT__next_y))
                                    ? vlSelfRef.tb_snake_map__DOT__dut__DOT__occ
                                   [vlSelfRef.tb_snake_map__DOT__next_y]

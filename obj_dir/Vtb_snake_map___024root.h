@@ -29,6 +29,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vtb_snake_map___024root final : public Verila
     CData/*0:0*/ tb_snake_map__DOT__will_pop;
     CData/*0:0*/ tb_snake_map__DOT__self_hit_now;
     CData/*0:0*/ tb_snake_map__DOT____Vlvbound_h44b69fa1__0;
+    CData/*0:0*/ tb_snake_map__DOT__dut__DOT__tail_valid;
     CData/*0:0*/ tb_snake_map__DOT__dut__DOT____Vlvbound_h2ad7622e__0;
     CData/*0:0*/ tb_snake_map__DOT__dut__DOT____Vlvbound_he6da044b__0;
     CData/*0:0*/ __VstlFirstIteration;

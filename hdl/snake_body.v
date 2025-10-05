@@ -9,10 +9,12 @@ module snake_body #(
   input  wire              pop,         // drop tail (no pop when growing)
   input  wire [XW+YW-1:0]  data_in,     // {head_x, head_y}
   output reg  [XW+YW-1:0]  data_out,    // tail value being popped
-  output reg  [7:0]        length       // current length
+  output reg  [7:0]        length,       // current length
+  output wire              tail_valid
 );
 
   localparam W = XW+YW;
+  assign tail_valid = (length != 0);
 
   // storage
   reg [W-1:0] mem [0:MAX_LEN-1];

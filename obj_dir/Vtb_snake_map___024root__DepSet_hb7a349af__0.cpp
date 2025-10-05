@@ -4878,15 +4878,16 @@ VL_INLINE_OPT void Vtb_snake_map___024root___act_comb__TOP__0(Vtb_snake_map___02
     vlSelfRef.tb_snake_map__DOT__self_hit_now = ((IData)(vlSelfRef.tb_snake_map__DOT__tick) 
                                                  & ((~ 
                                                      ((IData)(vlSelfRef.tb_snake_map__DOT__will_pop) 
-                                                      & (((IData)(vlSelfRef.tb_snake_map__DOT__next_x) 
-                                                          == 
-                                                          (7U 
-                                                           & ((IData)(vlSelfRef.tb_snake_map__DOT__tail_xy) 
-                                                              >> 3U))) 
-                                                         & ((IData)(vlSelfRef.tb_snake_map__DOT__next_y) 
-                                                            == 
-                                                            (7U 
-                                                             & (IData)(vlSelfRef.tb_snake_map__DOT__tail_xy)))))) 
+                                                      & ((IData)(vlSelfRef.tb_snake_map__DOT__dut__DOT__tail_valid) 
+                                                         & (((IData)(vlSelfRef.tb_snake_map__DOT__next_x) 
+                                                             == 
+                                                             (7U 
+                                                              & ((IData)(vlSelfRef.tb_snake_map__DOT__tail_xy) 
+                                                                 >> 3U))) 
+                                                            & ((IData)(vlSelfRef.tb_snake_map__DOT__next_y) 
+                                                               == 
+                                                               (7U 
+                                                                & (IData)(vlSelfRef.tb_snake_map__DOT__tail_xy))))))) 
                                                     & (((5U 
                                                          >= (IData)(vlSelfRef.tb_snake_map__DOT__next_y))
                                                          ? 
@@ -4977,7 +4978,8 @@ VL_INLINE_OPT void Vtb_snake_map___024root___nba_sequent__TOP__1(Vtb_snake_map__
                 = (7U & (IData)(vlSelfRef.tb_snake_map__DOT__head_xy));
             __VdlySet__tb_snake_map__DOT__dut__DOT__occ__v6 = 1U;
         }
-        if ((1U & (~ (IData)(vlSelfRef.tb_snake_map__DOT__eat)))) {
+        if (((~ (IData)(vlSelfRef.tb_snake_map__DOT__eat)) 
+             & (IData)(vlSelfRef.tb_snake_map__DOT__dut__DOT__tail_valid))) {
             vlSelfRef.tb_snake_map__DOT__dut__DOT____Vlvbound_he6da044b__0 = 0U;
             if ((5U >= (7U & (IData)(vlSelfRef.tb_snake_map__DOT__tail_xy)))) {
                 __VdlyVal__tb_snake_map__DOT__dut__DOT__occ__v7 

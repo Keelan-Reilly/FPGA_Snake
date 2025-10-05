@@ -55,6 +55,7 @@ VL_ATTR_COLD void Vtb_snake_map___024root__trace_init_sub__TOP__0(Vtb_snake_map_
     tracep->declBus(c+8,0,"next_x",-1, VerilatedTraceSigDirection::INPUT, VerilatedTraceSigKind::WIRE, VerilatedTraceSigType::LOGIC, false,-1, 2,0);
     tracep->declBus(c+9,0,"next_y",-1, VerilatedTraceSigDirection::INPUT, VerilatedTraceSigKind::WIRE, VerilatedTraceSigType::LOGIC, false,-1, 2,0);
     tracep->declBit(c+10,0,"will_pop",-1, VerilatedTraceSigDirection::INPUT, VerilatedTraceSigKind::WIRE, VerilatedTraceSigType::LOGIC, false,-1);
+    tracep->declBit(c+49,0,"tail_valid",-1, VerilatedTraceSigDirection::INPUT, VerilatedTraceSigKind::WIRE, VerilatedTraceSigType::LOGIC, false,-1);
     tracep->declBit(c+42,0,"self_hit_now",-1, VerilatedTraceSigDirection::OUTPUT, VerilatedTraceSigKind::WIRE, VerilatedTraceSigType::LOGIC, false,-1);
     tracep->pushPrefix("occ", VerilatedTracePrefixType::ARRAY_UNPACKED);
     for (int i = 0; i < 6; ++i) {
@@ -128,6 +129,7 @@ VL_ATTR_COLD void Vtb_snake_map___024root__trace_const_0_sub_0(Vtb_snake_map___0
     bufp->fullIData(oldp+46,(8U),32);
     bufp->fullIData(oldp+47,(6U),32);
     bufp->fullIData(oldp+48,(3U),32);
+    bufp->fullBit(oldp+49,(vlSelfRef.tb_snake_map__DOT__dut__DOT__tail_valid));
 }
 
 VL_ATTR_COLD void Vtb_snake_map___024root__trace_full_0_sub_0(Vtb_snake_map___024root* vlSelf, VerilatedVcd::Buffer* bufp);
@@ -201,11 +203,14 @@ VL_ATTR_COLD void Vtb_snake_map___024root__trace_full_0_sub_0(Vtb_snake_map___02
                                     : 0U) >> (IData)(vlSelfRef.tb_snake_map__DOT__q_x)))));
     bufp->fullBit(oldp+42,(((IData)(vlSelfRef.tb_snake_map__DOT__tick) 
                             & ((~ ((IData)(vlSelfRef.tb_snake_map__DOT__will_pop) 
-                                   & (((IData)(vlSelfRef.tb_snake_map__DOT__next_x) 
-                                       == (7U & ((IData)(vlSelfRef.tb_snake_map__DOT__tail_xy) 
-                                                 >> 3U))) 
-                                      & ((IData)(vlSelfRef.tb_snake_map__DOT__next_y) 
-                                         == (7U & (IData)(vlSelfRef.tb_snake_map__DOT__tail_xy)))))) 
+                                   & ((IData)(vlSelfRef.tb_snake_map__DOT__dut__DOT__tail_valid) 
+                                      & (((IData)(vlSelfRef.tb_snake_map__DOT__next_x) 
+                                          == (7U & 
+                                              ((IData)(vlSelfRef.tb_snake_map__DOT__tail_xy) 
+                                               >> 3U))) 
+                                         & ((IData)(vlSelfRef.tb_snake_map__DOT__next_y) 
+                                            == (7U 
+                                                & (IData)(vlSelfRef.tb_snake_map__DOT__tail_xy))))))) 
                                & (((5U >= (IData)(vlSelfRef.tb_snake_map__DOT__next_y))
                                     ? vlSelfRef.tb_snake_map__DOT__dut__DOT__occ
                                    [vlSelfRef.tb_snake_map__DOT__next_y]

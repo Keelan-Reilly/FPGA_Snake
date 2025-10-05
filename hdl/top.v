@@ -25,8 +25,10 @@ module top #(
   localparam GRID_H    = 480 >> CELL_BITS; // 30
 
   // VGA timing 25Mhz
-  reg        reset_pix = 1'b0;
-  always @(posedge pix_clk) reset_pix <= btnC;
+  // Power-on reset (hold high for ~2.6 ms at 25 MHz) + center button
+  reg [15:0] por = 16'd0;
+  always @(posedge pix_clk) if (!&por) por <= por + 1'b1;
+  wire reset_pix = btnC | ~&por;  // active-high reset fed to every module
 
   wire [9:0] hcount, vcount;
   wire       video_on;
@@ -100,6 +102,7 @@ module top #(
   wire [10:0] head_xy   = {head_x, head_y};
   wire [10:0] tail_xy;
   wire [7:0]  snake_len;
+  wire       tail_valid;
   wire       ate_pos;
 
   // push/pop wires shared across modules
@@ -113,7 +116,8 @@ module top #(
     .pop     (pop_w),        // don't pop when we eat (grow)
     .data_in (head_xy),
     .data_out(tail_xy),
-    .length  (snake_len)
+    .length  (snake_len),
+    .tail_valid(tail_valid)
   );
 
   // ----- Next position (combinational) for collision query -----
@@ -163,6 +167,7 @@ module top #(
     .next_x     (next_x),
     .next_y     (next_y),
     .will_pop   (pop_w),
+    .tail_valid (tail_valid),
     .self_hit_now(self_hit_now)
   );
 
@@ -171,7 +176,7 @@ module top #(
     if (reset_pix)         game_over <= 1'b0;
     else if (self_hit_now) game_over <= 1'b1;
   end
-  
+
   // Final video mux w/ game‐over checker
   wire [2:0] over_color = (hcount[4] ^ vcount[4]) ? 3'b100 : 3'b001;
   wire [2:0] rgb_bits = game_over

@@ -17,6 +17,7 @@ module snake_map #(
   input  wire [XW-1:0]    next_x,
   input  wire [YW-1:0]    next_y,
   input  wire             will_pop,     // !eat at this tick
+  input  wire             tail_valid,
   output wire             self_hit_now  // true only on tick
 );
   // occ[y][x]
@@ -28,12 +29,14 @@ module snake_map #(
   wire [YW-1:0] tail_y = tail_xy[YW-1:0];
 
   integer r;
+  // clear tail only when a real tail exists
   always @(posedge clk or posedge reset) begin
     if (reset) begin
       for (r = 0; r < GRID_H; r = r + 1) occ[r] <= {GRID_W{1'b0}};
     end else if (tick) begin
-      occ[head_y][head_x] <= 1'b1;         // previous head becomes body
-      if (!eat) occ[tail_y][tail_x] <= 1'b0; // pop tail when not eating
+      occ[head_y][head_x] <= 1'b1;               // prev head becomes body
+      if (!eat && tail_valid)                    // <--- guard
+        occ[tail_y][tail_x] <= 1'b0;             // pop tail
     end
   end
 
@@ -50,5 +53,5 @@ module snake_map #(
   // Self-hit: occupied next cell unless it’s exactly the tail on a pop tick
   wire moving_into_tail = (next_x == tail_x) && (next_y == tail_y);
   wire occ_next_bit     = row_next[next_x];
-  assign self_hit_now   = tick && occ_next_bit && !(will_pop && moving_into_tail);
+  assign self_hit_now   = tick && occ_next_bit && !(will_pop && tail_valid && moving_into_tail);
 endmodule
