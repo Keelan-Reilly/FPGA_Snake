@@ -194,33 +194,33 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
                                                          nullptr, 
                                                          "@(posedge tb_snake_map.clk)", 
                                                          "tb/tb_snake_map.v", 
-                                                         139);
+                                                         150);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
                                                          nullptr, 
                                                          "@(posedge tb_snake_map.clk)", 
                                                          "tb/tb_snake_map.v", 
-                                                         139);
+                                                         150);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.tb_snake_map__DOT__reset = 1U;
     co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
                                                          nullptr, 
                                                          "@(posedge tb_snake_map.clk)", 
                                                          "tb/tb_snake_map.v", 
-                                                         141);
+                                                         152);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
                                                          nullptr, 
                                                          "@(posedge tb_snake_map.clk)", 
                                                          "tb/tb_snake_map.v", 
-                                                         141);
+                                                         152);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.tb_snake_map__DOT__reset = 0U;
     co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
                                                          nullptr, 
                                                          "@(posedge tb_snake_map.clk)", 
                                                          "tb/tb_snake_map.v", 
-                                                         143);
+                                                         154);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     IData/*31:0*/ __Vilp1;
     __Vilp1 = 0U;
@@ -234,7 +234,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -251,7 +251,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -268,7 +268,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -285,7 +285,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -302,7 +302,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -319,7 +319,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -336,7 +336,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -353,7 +353,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -371,7 +371,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -388,7 +388,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -405,7 +405,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -422,7 +422,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -439,7 +439,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -456,7 +456,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -473,7 +473,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -490,7 +490,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -508,7 +508,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -525,7 +525,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -542,7 +542,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -559,7 +559,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -576,7 +576,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -593,7 +593,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -610,7 +610,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -627,7 +627,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -645,7 +645,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -662,7 +662,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -679,7 +679,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -696,7 +696,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -713,7 +713,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -730,7 +730,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -747,7 +747,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -764,7 +764,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -782,7 +782,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -799,7 +799,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -816,7 +816,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -833,7 +833,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -850,7 +850,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -867,7 +867,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -884,7 +884,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -901,7 +901,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -919,7 +919,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -936,7 +936,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -953,7 +953,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -970,7 +970,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -987,7 +987,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1004,7 +1004,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1021,7 +1021,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1038,7 +1038,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1054,17 +1054,11 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__check_occ__Vstatic__y = 6U;
     if (VL_UNLIKELY(((0U != vlSelfRef.tb_snake_map__DOT__check_occ__Vstatic__err)))) {
         VL_WRITEF_NX("FAILED %0s\n",0,1536,__Vtask_tb_snake_map__DOT__check_occ__1__msg.data());
-        VL_STOP_MT("tb/tb_snake_map.v", 119, "");
+        VL_STOP_MT("tb/tb_snake_map.v", 124, "");
     } else {
         VL_WRITEF_NX("PASS %0s: occupancy matches.\n",0,
                      1536,__Vtask_tb_snake_map__DOT__check_occ__1__msg.data());
     }
-    co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
-                                                         nullptr, 
-                                                         "@(posedge tb_snake_map.clk)", 
-                                                         "tb/tb_snake_map.v", 
-                                                         146);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.tb_snake_map__DOT__unnamedblk1__DOT__hx = 2U;
     vlSelfRef.tb_snake_map__DOT__unnamedblk1__DOT__hy = 2U;
     vlSelfRef.tb_snake_map__DOT__unnamedblk1__DOT__nx = 3U;
@@ -1090,12 +1084,16 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
                                              & (__Vtask_tb_snake_map__DOT__do_step__2__tx 
                                                 << 3U)) 
                                             | (7U & __Vtask_tb_snake_map__DOT__do_step__2__ty));
+    co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
+                                         nullptr, "tb/tb_snake_map.v", 
+                                         88);
+    vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.tb_snake_map__DOT__tick = 1U;
     co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
                                                          nullptr, 
                                                          "@(posedge tb_snake_map.clk)", 
                                                          "tb/tb_snake_map.v", 
-                                                         89);
+                                                         91);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     __Vtask_tb_snake_map__DOT__do_step__2__hit_flag 
         = vlSelfRef.tb_snake_map__DOT__self_hit_now;
@@ -1131,22 +1129,22 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
                                << (7U & __Vtask_tb_snake_map__DOT__ref_apply_tick__3__tx))));
         }
     }
+    co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge tb_snake_map.clk)", 
+                                                         "tb/tb_snake_map.v", 
+                                                         99);
+    vlSelfRef.__Vm_traceActivity[2U] = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         95);
+                                         100);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.tb_snake_map__DOT__unnamedblk1__DOT__hit 
         = __Vtask_tb_snake_map__DOT__do_step__2__hit_flag;
     if (VL_UNLIKELY(((0U != vlSelfRef.tb_snake_map__DOT__unnamedblk1__DOT__hit)))) {
         VL_WRITEF_NX("Unexpected hit on grow step 1\n",0);
-        VL_STOP_MT("tb/tb_snake_map.v", 154, "");
+        VL_STOP_MT("tb/tb_snake_map.v", 164, "");
     }
-    co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
-                                                         nullptr, 
-                                                         "@(posedge tb_snake_map.clk)", 
-                                                         "tb/tb_snake_map.v", 
-                                                         155);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
     IData/*31:0*/ __Vilp2;
     __Vilp2 = 0U;
     while ((__Vilp2 <= 0x2fU)) {
@@ -1159,7 +1157,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1176,7 +1174,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1193,7 +1191,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1210,7 +1208,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1227,7 +1225,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1244,7 +1242,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1261,7 +1259,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1278,7 +1276,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1296,7 +1294,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1313,7 +1311,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1330,7 +1328,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1347,7 +1345,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1364,7 +1362,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1381,7 +1379,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1398,7 +1396,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1415,7 +1413,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1433,7 +1431,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1450,7 +1448,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1467,7 +1465,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1484,7 +1482,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1501,7 +1499,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1518,7 +1516,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1535,7 +1533,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1552,7 +1550,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1570,7 +1568,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1587,7 +1585,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1604,7 +1602,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1621,7 +1619,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1638,7 +1636,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1655,7 +1653,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1672,7 +1670,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1689,7 +1687,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1707,7 +1705,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1724,7 +1722,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1741,7 +1739,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1758,7 +1756,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1775,7 +1773,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1792,7 +1790,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1809,7 +1807,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1826,7 +1824,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1844,7 +1842,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1861,7 +1859,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1878,7 +1876,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1895,7 +1893,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1912,7 +1910,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1929,7 +1927,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1946,7 +1944,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1963,7 +1961,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -1979,7 +1977,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__check_occ__Vstatic__y = 6U;
     if (VL_UNLIKELY(((0U != vlSelfRef.tb_snake_map__DOT__check_occ__Vstatic__err)))) {
         VL_WRITEF_NX("FAILED %0s\n",0,1536,__Vtask_tb_snake_map__DOT__check_occ__4__msg.data());
-        VL_STOP_MT("tb/tb_snake_map.v", 119, "");
+        VL_STOP_MT("tb/tb_snake_map.v", 124, "");
     } else {
         VL_WRITEF_NX("PASS %0s: occupancy matches.\n",0,
                      1536,__Vtask_tb_snake_map__DOT__check_occ__4__msg.data());
@@ -2011,12 +2009,16 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
                                              & (__Vtask_tb_snake_map__DOT__do_step__5__tx 
                                                 << 3U)) 
                                             | (7U & __Vtask_tb_snake_map__DOT__do_step__5__ty));
+    co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
+                                         nullptr, "tb/tb_snake_map.v", 
+                                         88);
+    vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.tb_snake_map__DOT__tick = 1U;
     co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
                                                          nullptr, 
                                                          "@(posedge tb_snake_map.clk)", 
                                                          "tb/tb_snake_map.v", 
-                                                         89);
+                                                         91);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     __Vtask_tb_snake_map__DOT__do_step__5__hit_flag 
         = vlSelfRef.tb_snake_map__DOT__self_hit_now;
@@ -2052,22 +2054,22 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
                                << (7U & __Vtask_tb_snake_map__DOT__ref_apply_tick__6__tx))));
         }
     }
+    co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge tb_snake_map.clk)", 
+                                                         "tb/tb_snake_map.v", 
+                                                         99);
+    vlSelfRef.__Vm_traceActivity[2U] = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         95);
+                                         100);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.tb_snake_map__DOT__unnamedblk1__DOT__hit 
         = __Vtask_tb_snake_map__DOT__do_step__5__hit_flag;
     if (VL_UNLIKELY(((0U != vlSelfRef.tb_snake_map__DOT__unnamedblk1__DOT__hit)))) {
         VL_WRITEF_NX("Unexpected hit on grow step 2\n",0);
-        VL_STOP_MT("tb/tb_snake_map.v", 162, "");
+        VL_STOP_MT("tb/tb_snake_map.v", 171, "");
     }
-    co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
-                                                         nullptr, 
-                                                         "@(posedge tb_snake_map.clk)", 
-                                                         "tb/tb_snake_map.v", 
-                                                         163);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
     IData/*31:0*/ __Vilp3;
     __Vilp3 = 0U;
     while ((__Vilp3 <= 0x2fU)) {
@@ -2080,7 +2082,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2097,7 +2099,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2114,7 +2116,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2131,7 +2133,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2148,7 +2150,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2165,7 +2167,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2182,7 +2184,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2199,7 +2201,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2217,7 +2219,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2234,7 +2236,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2251,7 +2253,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2268,7 +2270,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2285,7 +2287,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2302,7 +2304,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2319,7 +2321,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2336,7 +2338,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2354,7 +2356,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2371,7 +2373,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2388,7 +2390,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2405,7 +2407,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2422,7 +2424,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2439,7 +2441,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2456,7 +2458,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2473,7 +2475,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2491,7 +2493,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2508,7 +2510,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2525,7 +2527,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2542,7 +2544,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2559,7 +2561,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2576,7 +2578,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2593,7 +2595,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2610,7 +2612,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2628,7 +2630,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2645,7 +2647,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2662,7 +2664,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2679,7 +2681,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2696,7 +2698,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2713,7 +2715,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2730,7 +2732,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2747,7 +2749,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2765,7 +2767,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2782,7 +2784,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2799,7 +2801,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2816,7 +2818,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2833,7 +2835,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2850,7 +2852,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2867,7 +2869,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2884,7 +2886,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -2900,7 +2902,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__check_occ__Vstatic__y = 6U;
     if (VL_UNLIKELY(((0U != vlSelfRef.tb_snake_map__DOT__check_occ__Vstatic__err)))) {
         VL_WRITEF_NX("FAILED %0s\n",0,1536,__Vtask_tb_snake_map__DOT__check_occ__7__msg.data());
-        VL_STOP_MT("tb/tb_snake_map.v", 119, "");
+        VL_STOP_MT("tb/tb_snake_map.v", 124, "");
     } else {
         VL_WRITEF_NX("PASS %0s: occupancy matches.\n",0,
                      1536,__Vtask_tb_snake_map__DOT__check_occ__7__msg.data());
@@ -2932,12 +2934,16 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
                                              & (__Vtask_tb_snake_map__DOT__do_step__8__tx 
                                                 << 3U)) 
                                             | (7U & __Vtask_tb_snake_map__DOT__do_step__8__ty));
+    co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
+                                         nullptr, "tb/tb_snake_map.v", 
+                                         88);
+    vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.tb_snake_map__DOT__tick = 1U;
     co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
                                                          nullptr, 
                                                          "@(posedge tb_snake_map.clk)", 
                                                          "tb/tb_snake_map.v", 
-                                                         89);
+                                                         91);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     __Vtask_tb_snake_map__DOT__do_step__8__hit_flag 
         = vlSelfRef.tb_snake_map__DOT__self_hit_now;
@@ -2973,22 +2979,22 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
                                << (7U & __Vtask_tb_snake_map__DOT__ref_apply_tick__9__tx))));
         }
     }
+    co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge tb_snake_map.clk)", 
+                                                         "tb/tb_snake_map.v", 
+                                                         99);
+    vlSelfRef.__Vm_traceActivity[2U] = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         95);
+                                         100);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.tb_snake_map__DOT__unnamedblk1__DOT__hit 
         = __Vtask_tb_snake_map__DOT__do_step__8__hit_flag;
     if (VL_UNLIKELY(((0U != vlSelfRef.tb_snake_map__DOT__unnamedblk1__DOT__hit)))) {
         VL_WRITEF_NX("Unexpected hit on pop step 3\n",0);
-        VL_STOP_MT("tb/tb_snake_map.v", 170, "");
+        VL_STOP_MT("tb/tb_snake_map.v", 178, "");
     }
-    co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
-                                                         nullptr, 
-                                                         "@(posedge tb_snake_map.clk)", 
-                                                         "tb/tb_snake_map.v", 
-                                                         171);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
     IData/*31:0*/ __Vilp4;
     __Vilp4 = 0U;
     while ((__Vilp4 <= 0x2fU)) {
@@ -3001,7 +3007,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3018,7 +3024,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3035,7 +3041,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3052,7 +3058,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3069,7 +3075,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3086,7 +3092,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3103,7 +3109,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3120,7 +3126,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3138,7 +3144,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3155,7 +3161,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3172,7 +3178,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3189,7 +3195,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3206,7 +3212,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3223,7 +3229,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3240,7 +3246,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3257,7 +3263,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3275,7 +3281,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3292,7 +3298,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3309,7 +3315,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3326,7 +3332,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3343,7 +3349,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3360,7 +3366,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3377,7 +3383,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3394,7 +3400,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3412,7 +3418,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3429,7 +3435,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3446,7 +3452,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3463,7 +3469,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3480,7 +3486,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3497,7 +3503,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3514,7 +3520,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3531,7 +3537,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3549,7 +3555,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3566,7 +3572,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3583,7 +3589,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3600,7 +3606,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3617,7 +3623,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3634,7 +3640,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3651,7 +3657,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3668,7 +3674,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3686,7 +3692,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3703,7 +3709,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3720,7 +3726,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3737,7 +3743,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3754,7 +3760,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3771,7 +3777,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3788,7 +3794,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3805,7 +3811,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3821,7 +3827,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__check_occ__Vstatic__y = 6U;
     if (VL_UNLIKELY(((0U != vlSelfRef.tb_snake_map__DOT__check_occ__Vstatic__err)))) {
         VL_WRITEF_NX("FAILED %0s\n",0,1536,__Vtask_tb_snake_map__DOT__check_occ__10__msg.data());
-        VL_STOP_MT("tb/tb_snake_map.v", 119, "");
+        VL_STOP_MT("tb/tb_snake_map.v", 124, "");
     } else {
         VL_WRITEF_NX("PASS %0s: occupancy matches.\n",0,
                      1536,__Vtask_tb_snake_map__DOT__check_occ__10__msg.data());
@@ -3853,12 +3859,16 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
                                              & (__Vtask_tb_snake_map__DOT__do_step__11__tx 
                                                 << 3U)) 
                                             | (7U & __Vtask_tb_snake_map__DOT__do_step__11__ty));
+    co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
+                                         nullptr, "tb/tb_snake_map.v", 
+                                         88);
+    vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.tb_snake_map__DOT__tick = 1U;
     co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
                                                          nullptr, 
                                                          "@(posedge tb_snake_map.clk)", 
                                                          "tb/tb_snake_map.v", 
-                                                         89);
+                                                         91);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     __Vtask_tb_snake_map__DOT__do_step__11__hit_flag 
         = vlSelfRef.tb_snake_map__DOT__self_hit_now;
@@ -3894,22 +3904,22 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
                                << (7U & __Vtask_tb_snake_map__DOT__ref_apply_tick__12__tx))));
         }
     }
+    co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge tb_snake_map.clk)", 
+                                                         "tb/tb_snake_map.v", 
+                                                         99);
+    vlSelfRef.__Vm_traceActivity[2U] = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         95);
+                                         100);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.tb_snake_map__DOT__unnamedblk1__DOT__hit 
         = __Vtask_tb_snake_map__DOT__do_step__11__hit_flag;
     if (VL_UNLIKELY(((0U != vlSelfRef.tb_snake_map__DOT__unnamedblk1__DOT__hit)))) {
         VL_WRITEF_NX("Tail-exception incorrectly hit\n",0);
-        VL_STOP_MT("tb/tb_snake_map.v", 179, "");
+        VL_STOP_MT("tb/tb_snake_map.v", 186, "");
     }
-    co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
-                                                         nullptr, 
-                                                         "@(posedge tb_snake_map.clk)", 
-                                                         "tb/tb_snake_map.v", 
-                                                         180);
-    vlSelfRef.__Vm_traceActivity[2U] = 1U;
     IData/*31:0*/ __Vilp5;
     __Vilp5 = 0U;
     while ((__Vilp5 <= 0x2fU)) {
@@ -3922,7 +3932,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3939,7 +3949,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3956,7 +3966,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3973,7 +3983,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -3990,7 +4000,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4007,7 +4017,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4024,7 +4034,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4041,7 +4051,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 0U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4059,7 +4069,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4076,7 +4086,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4093,7 +4103,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4110,7 +4120,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4127,7 +4137,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4144,7 +4154,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4161,7 +4171,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4178,7 +4188,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4196,7 +4206,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4213,7 +4223,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4230,7 +4240,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4247,7 +4257,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4264,7 +4274,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4281,7 +4291,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4298,7 +4308,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4315,7 +4325,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 2U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4333,7 +4343,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4350,7 +4360,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4367,7 +4377,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4384,7 +4394,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4401,7 +4411,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4418,7 +4428,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4435,7 +4445,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4452,7 +4462,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 3U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4470,7 +4480,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4487,7 +4497,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4504,7 +4514,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4521,7 +4531,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4538,7 +4548,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4555,7 +4565,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4572,7 +4582,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4589,7 +4599,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 4U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4607,7 +4617,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4624,7 +4634,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4641,7 +4651,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4658,7 +4668,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4675,7 +4685,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4692,7 +4702,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4709,7 +4719,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4726,7 +4736,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__q_y = 5U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         109);
+                                         114);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     if (VL_UNLIKELY((((IData)(vlSelfRef.tb_snake_map__DOT__body_on) 
                       != (1U & (vlSelfRef.tb_snake_map__DOT__occ_ref
@@ -4742,7 +4752,7 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
     vlSelfRef.tb_snake_map__DOT__check_occ__Vstatic__y = 6U;
     if (VL_UNLIKELY(((0U != vlSelfRef.tb_snake_map__DOT__check_occ__Vstatic__err)))) {
         VL_WRITEF_NX("FAILED %0s\n",0,1536,__Vtask_tb_snake_map__DOT__check_occ__13__msg.data());
-        VL_STOP_MT("tb/tb_snake_map.v", 119, "");
+        VL_STOP_MT("tb/tb_snake_map.v", 124, "");
     } else {
         VL_WRITEF_NX("PASS %0s: occupancy matches.\n",0,
                      1536,__Vtask_tb_snake_map__DOT__check_occ__13__msg.data());
@@ -4774,12 +4784,16 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
                                              & (__Vtask_tb_snake_map__DOT__do_step__14__tx 
                                                 << 3U)) 
                                             | (7U & __Vtask_tb_snake_map__DOT__do_step__14__ty));
+    co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
+                                         nullptr, "tb/tb_snake_map.v", 
+                                         88);
+    vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.tb_snake_map__DOT__tick = 1U;
     co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
                                                          nullptr, 
                                                          "@(posedge tb_snake_map.clk)", 
                                                          "tb/tb_snake_map.v", 
-                                                         89);
+                                                         91);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     __Vtask_tb_snake_map__DOT__do_step__14__hit_flag 
         = vlSelfRef.tb_snake_map__DOT__self_hit_now;
@@ -4815,18 +4829,24 @@ VL_INLINE_OPT VlCoroutine Vtb_snake_map___024root___eval_initial__TOP__Vtiming__
                                << (7U & __Vtask_tb_snake_map__DOT__ref_apply_tick__15__tx))));
         }
     }
+    co_await vlSelfRef.__VtrigSched_h01882e98__0.trigger(0U, 
+                                                         nullptr, 
+                                                         "@(posedge tb_snake_map.clk)", 
+                                                         "tb/tb_snake_map.v", 
+                                                         99);
+    vlSelfRef.__Vm_traceActivity[2U] = 1U;
     co_await vlSelfRef.__VdlySched.delay(0x3e8ULL, 
                                          nullptr, "tb/tb_snake_map.v", 
-                                         95);
+                                         100);
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
     vlSelfRef.tb_snake_map__DOT__unnamedblk1__DOT__hit 
         = __Vtask_tb_snake_map__DOT__do_step__14__hit_flag;
     if (VL_UNLIKELY(((1U & (~ (0U != vlSelfRef.tb_snake_map__DOT__unnamedblk1__DOT__hit)))))) {
         VL_WRITEF_NX("Expected self-hit did not trigger\n",0);
-        VL_STOP_MT("tb/tb_snake_map.v", 187, "");
+        VL_STOP_MT("tb/tb_snake_map.v", 193, "");
     }
     VL_WRITEF_NX("PASS: real self-hit step 5\nAll tests passed \342\234\205\n",0);
-    VL_FINISH_MT("tb/tb_snake_map.v", 191, "");
+    VL_FINISH_MT("tb/tb_snake_map.v", 197, "");
     vlSelfRef.__Vm_traceActivity[2U] = 1U;
 }
 
@@ -4877,14 +4897,18 @@ VL_INLINE_OPT void Vtb_snake_map___024root___act_comb__TOP__0(Vtb_snake_map___02
 }
 
 void Vtb_snake_map___024root___nba_sequent__TOP__0(Vtb_snake_map___024root* vlSelf);
+void Vtb_snake_map___024root___nba_sequent__TOP__1(Vtb_snake_map___024root* vlSelf);
 
 void Vtb_snake_map___024root___eval_nba(Vtb_snake_map___024root* vlSelf) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_snake_map___024root___eval_nba\n"); );
     Vtb_snake_map__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
-    if ((3ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
+    if ((1ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vtb_snake_map___024root___nba_sequent__TOP__0(vlSelf);
+    }
+    if ((3ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
+        Vtb_snake_map___024root___nba_sequent__TOP__1(vlSelf);
         vlSelfRef.__Vm_traceActivity[3U] = 1U;
     }
     if ((7ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
@@ -4894,6 +4918,25 @@ void Vtb_snake_map___024root___eval_nba(Vtb_snake_map___024root* vlSelf) {
 
 VL_INLINE_OPT void Vtb_snake_map___024root___nba_sequent__TOP__0(Vtb_snake_map___024root* vlSelf) {
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_snake_map___024root___nba_sequent__TOP__0\n"); );
+    Vtb_snake_map__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    auto& vlSelfRef = std::ref(*vlSelf).get();
+    // Body
+    if (VL_UNLIKELY((vlSelfRef.tb_snake_map__DOT__tick))) {
+        VL_WRITEF_NX("[%0t] eat=%0b pop=%0b head=(%0#,%0#) tail=(%0#,%0#) next=(%0#,%0#)\n",0,
+                     64,VL_TIME_UNITED_Q(1000),-9,1,
+                     (IData)(vlSelfRef.tb_snake_map__DOT__eat),
+                     1,vlSelfRef.tb_snake_map__DOT__will_pop,
+                     3,(7U & ((IData)(vlSelfRef.tb_snake_map__DOT__head_xy) 
+                              >> 3U)),3,(7U & (IData)(vlSelfRef.tb_snake_map__DOT__head_xy)),
+                     3,(7U & ((IData)(vlSelfRef.tb_snake_map__DOT__tail_xy) 
+                              >> 3U)),3,(7U & (IData)(vlSelfRef.tb_snake_map__DOT__tail_xy)),
+                     3,(IData)(vlSelfRef.tb_snake_map__DOT__next_x),
+                     3,vlSelfRef.tb_snake_map__DOT__next_y);
+    }
+}
+
+VL_INLINE_OPT void Vtb_snake_map___024root___nba_sequent__TOP__1(Vtb_snake_map___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_snake_map___024root___nba_sequent__TOP__1\n"); );
     Vtb_snake_map__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Init

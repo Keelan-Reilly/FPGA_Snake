@@ -69,7 +69,6 @@ module tb_snake_map;
     end
   endtask
 
-  // Pulse one game step; drive inputs; sample hit; update reference
   task do_step;
     input integer hx, hy;     // head cell (becomes body)
     input integer nx, ny;     // next head cell (for collision query)
@@ -85,6 +84,9 @@ module tb_snake_map;
       will_pop = !eat_i;
       tail_xy  = {tx[XW-1:0], ty[YW-1:0]};
 
+      // *** Let inputs settle before the clock edge ***
+      #1;
+
       // Tick for 1 cycle
       tick = 1'b1; @(posedge clk);
       hit_flag = self_hit_now;
@@ -92,6 +94,9 @@ module tb_snake_map;
 
       // Update reference (same order as DUT)
       ref_apply_tick(eat_i, hx, hy, tx, ty);
+
+      // Ensure DUT NBAs are visible before any checks
+      @(posedge clk);
       #1;
     end
   endtask
@@ -123,6 +128,12 @@ module tb_snake_map;
     end
   endtask
 
+  always @(posedge clk) if (tick) begin
+    $display("[%0t] eat=%0b pop=%0b head=(%0d,%0d) tail=(%0d,%0d) next=(%0d,%0d)",
+            $time, eat, will_pop,
+            dut.head_x, dut.head_y, dut.tail_x, dut.tail_y, next_x, next_y);
+    end
+
   // ---------- Test sequence ----------
   initial begin
     integer hit;
@@ -143,7 +154,6 @@ module tb_snake_map;
     repeat (1) @(posedge clk);
 
     check_occ("after reset");
-    @(posedge clk);
 
     // Start head at (2,2)
     hx = 2; hy = 2;
@@ -152,7 +162,6 @@ module tb_snake_map;
     nx = 3; ny = 2; tx = 2; ty = 2; // tail ignored on eat
     do_step(hx,hy, nx,ny, 1'b1, tx,ty, hit);
     if (hit) begin $display("Unexpected hit on grow step 1"); $stop; end
-    @(posedge clk);
     check_occ("grow step 1");
     hx = nx; hy = ny;
 
@@ -160,7 +169,6 @@ module tb_snake_map;
     nx = 4; ny = 2; tx = 3; ty = 2;
     do_step(hx,hy, nx,ny, 1'b1, tx,ty, hit);
     if (hit) begin $display("Unexpected hit on grow step 2"); $stop; end
-    @(posedge clk);
     check_occ("grow step 2");
     hx = nx; hy = ny;
 
@@ -168,7 +176,6 @@ module tb_snake_map;
     nx = 5; ny = 2; tx = 2; ty = 2;
     do_step(hx,hy, nx,ny, 1'b0, tx,ty, hit);
     if (hit) begin $display("Unexpected hit on pop step 3"); $stop; end
-    @(posedge clk);
     check_occ("pop step 3");
     hx = nx; hy = ny;
 
@@ -177,7 +184,6 @@ module tb_snake_map;
     nx = 3; ny = 2; tx = 3; ty = 2; // moving into (3,2) while it vacates
     do_step(hx,hy, nx,ny, 1'b0, tx,ty, hit);
     if (hit) begin $display("Tail-exception incorrectly hit"); $stop; end
-    @(posedge clk);
     check_occ("tail-exception step 4");
     hx = nx; hy = ny;
 
