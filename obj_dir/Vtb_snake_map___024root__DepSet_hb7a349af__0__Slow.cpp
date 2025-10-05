@@ -204,6 +204,7 @@ VL_ATTR_COLD void Vtb_snake_map___024root___ctor_var_reset(Vtb_snake_map___024ro
     vlSelf->tb_snake_map__DOT__dut__DOT__r = VL_SCOPED_RAND_RESET_I(32, __VscopeHash, 17727835368006861445ull);
     vlSelf->tb_snake_map__DOT__dut__DOT____Vlvbound_h2ad7622e__0 = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 16939624727727901447ull);
     vlSelf->tb_snake_map__DOT__dut__DOT____Vlvbound_he6da044b__0 = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 4116814033313066195ull);
+    vlSelf->tb_snake_map__DOT__dut__DOT____Vlvbound_h2ad7622e__1 = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 11354368082720878439ull);
     vlSelf->__Vtrigprevexpr___TOP__tb_snake_map__DOT__clk__0 = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 14552049621118763562ull);
     vlSelf->__Vtrigprevexpr___TOP__tb_snake_map__DOT__reset__0 = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 15166905461264136815ull);
     for (int __Vi0 = 0; __Vi0 < 4; ++__Vi0) {

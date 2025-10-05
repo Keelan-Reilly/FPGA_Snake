@@ -43,7 +43,7 @@ Vtb_snake_map__Syms::Vtb_snake_map__Syms(VerilatedContext* contextp, const char*
     , TOP{this, namep}
 {
         // Check resources
-        Verilated::stackCheck(1252);
+        Verilated::stackCheck(1260);
     // Configure time unit / time precision
     _vm_contextp__->timeunit(-9);
     _vm_contextp__->timeprecision(-12);

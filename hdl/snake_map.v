@@ -29,14 +29,22 @@ module snake_map #(
   wire [YW-1:0] tail_y = tail_xy[YW-1:0];
 
   integer r;
-  // clear tail only when a real tail exists
+  // clear tail only when a real tail exists; avoid leaving trails at length==0
   always @(posedge clk or posedge reset) begin
     if (reset) begin
       for (r = 0; r < GRID_H; r = r + 1) occ[r] <= {GRID_W{1'b0}};
     end else if (tick) begin
-      occ[head_y][head_x] <= 1'b1;               // prev head becomes body
-      if (!eat && tail_valid)                    // <--- guard
-        occ[tail_y][tail_x] <= 1'b0;             // pop tail
+      // Create a body pixel iff we already have length>0, or we are growing now.
+      if (tail_valid || eat)
+        occ[head_y][head_x] <= 1'b1;
+
+      // Pop tail on non-eat ticks. If length==0, clear the same cell to prevent a trail.
+      if (!eat) begin
+        if (tail_valid)
+          occ[tail_y][tail_x] <= 1'b0;
+        else
+          occ[head_y][head_x] <= 1'b0;  // belt & braces: no body while length==0
+      end
     end
   end
 
