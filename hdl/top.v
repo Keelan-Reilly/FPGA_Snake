@@ -27,7 +27,7 @@ module top #(
   // VGA timing 25Mhz
   // Power-on reset (hold high for ~2.6 ms at 25 MHz) + center button
   reg [15:0] por = 16'd0;
-  always @(posedge pix_clk) if (!&por) por <= por + 1'b1;
+  always @(posedge pix_clk) if (~&por) por <= por + 1'b1;
   wire reset_pix = btnC | ~&por;  // active-high reset fed to every module
 
   wire [9:0] hcount, vcount;
