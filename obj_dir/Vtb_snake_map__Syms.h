@@ -4,24 +4,24 @@
 // Internal details; most calling programs do not need this header,
 // unless using verilator public meta comments.
 
-#ifndef VERILATED_VTB_TOP__SYMS_H_
-#define VERILATED_VTB_TOP__SYMS_H_  // guard
+#ifndef VERILATED_VTB_SNAKE_MAP__SYMS_H_
+#define VERILATED_VTB_SNAKE_MAP__SYMS_H_  // guard
 
 #include "verilated.h"
 #include "verilated_vcd_c.h"
 
 // INCLUDE MODEL CLASS
 
-#include "Vtb_top.h"
+#include "Vtb_snake_map.h"
 
 // INCLUDE MODULE CLASSES
-#include "Vtb_top___024root.h"
+#include "Vtb_snake_map___024root.h"
 
 // SYMS CLASS (contains all model state)
-class alignas(VL_CACHE_LINE_BYTES)Vtb_top__Syms final : public VerilatedSyms {
+class alignas(VL_CACHE_LINE_BYTES)Vtb_snake_map__Syms final : public VerilatedSyms {
   public:
     // INTERNAL STATE
-    Vtb_top* const __Vm_modelp;
+    Vtb_snake_map* const __Vm_modelp;
     bool __Vm_dumping = false;  // Dumping is active
     VerilatedMutex __Vm_dumperMutex;  // Protect __Vm_dumperp
     VerilatedVcdC* __Vm_dumperp VL_GUARDED_BY(__Vm_dumperMutex) = nullptr;  /// Trace class for $dump*
@@ -31,11 +31,11 @@ class alignas(VL_CACHE_LINE_BYTES)Vtb_top__Syms final : public VerilatedSyms {
     bool __Vm_didInit = false;
 
     // MODULE INSTANCE STATE
-    Vtb_top___024root              TOP;
+    Vtb_snake_map___024root        TOP;
 
     // CONSTRUCTORS
-    Vtb_top__Syms(VerilatedContext* contextp, const char* namep, Vtb_top* modelp);
-    ~Vtb_top__Syms();
+    Vtb_snake_map__Syms(VerilatedContext* contextp, const char* namep, Vtb_snake_map* modelp);
+    ~Vtb_snake_map__Syms();
 
     // METHODS
     const char* name() { return TOP.name(); }

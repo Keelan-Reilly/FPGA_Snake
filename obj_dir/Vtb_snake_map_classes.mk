@@ -2,7 +2,7 @@
 # DESCRIPTION: Verilator output: Make include file with class lists
 #
 # This file lists generated Verilated files, for including in higher level makefiles.
-# See Vtb_top.mk for the caller.
+# See Vtb_snake_map.mk for the caller.
 
 ### Switches...
 # C11 constructs required?  0/1 (always on now)
@@ -25,27 +25,27 @@ VM_TRACE_VCD = 1
 ### Object file lists...
 # Generated module classes, fast-path, compile with highest optimization
 VM_CLASSES_FAST += \
-  Vtb_top \
-  Vtb_top___024root__DepSet_hf139a6cf__0 \
-  Vtb_top___024root__DepSet_h8143e072__0 \
-  Vtb_top__main \
+  Vtb_snake_map \
+  Vtb_snake_map___024root__DepSet_h57036fbc__0 \
+  Vtb_snake_map___024root__DepSet_hb7a349af__0 \
+  Vtb_snake_map__main \
 
 # Generated module classes, non-fast-path, compile with low/medium optimization
 VM_CLASSES_SLOW += \
-  Vtb_top__ConstPool_0 \
-  Vtb_top___024root__Slow \
-  Vtb_top___024root__DepSet_hf139a6cf__0__Slow \
-  Vtb_top___024root__DepSet_h8143e072__0__Slow \
+  Vtb_snake_map__ConstPool_0 \
+  Vtb_snake_map___024root__Slow \
+  Vtb_snake_map___024root__DepSet_h57036fbc__0__Slow \
+  Vtb_snake_map___024root__DepSet_hb7a349af__0__Slow \
 
 # Generated support classes, fast-path, compile with highest optimization
 VM_SUPPORT_FAST += \
-  Vtb_top__Trace__0 \
+  Vtb_snake_map__Trace__0 \
 
 # Generated support classes, non-fast-path, compile with low/medium optimization
 VM_SUPPORT_SLOW += \
-  Vtb_top__Syms \
-  Vtb_top__Trace__0__Slow \
-  Vtb_top__TraceDecls__0__Slow \
+  Vtb_snake_map__Syms \
+  Vtb_snake_map__Trace__0__Slow \
+  Vtb_snake_map__TraceDecls__0__Slow \
 
 # Global classes, need linked once per executable, fast-path, compile with highest optimization
 VM_GLOBAL_FAST += \

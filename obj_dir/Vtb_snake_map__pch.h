@@ -3,11 +3,11 @@
 //
 // Internal details; most user sources do not need this header,
 // unless using verilator public meta comments.
-// Suggest use Vtb_top.h instead.
+// Suggest use Vtb_snake_map.h instead.
 
 
-#ifndef VERILATED_VTB_TOP__PCH_H_
-#define VERILATED_VTB_TOP__PCH_H_  // guard
+#ifndef VERILATED_VTB_SNAKE_MAP__PCH_H_
+#define VERILATED_VTB_SNAKE_MAP__PCH_H_  // guard
 
 // GCC and Clang only will precompile headers (PCH) for the first header.
 // So, make sure this is the one and only PCH.
@@ -20,8 +20,8 @@
 
 #include "verilated.h"
 
-#include "Vtb_top__Syms.h"
-#include "Vtb_top.h"
+#include "Vtb_snake_map__Syms.h"
+#include "Vtb_snake_map.h"
 
 // Additional include files added using '--compiler-include'
 

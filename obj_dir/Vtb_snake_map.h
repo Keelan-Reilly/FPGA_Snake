@@ -5,20 +5,20 @@
 // The class here is then constructed to instantiate the design.
 // See the Verilator manual for examples.
 
-#ifndef VERILATED_VTB_TOP_H_
-#define VERILATED_VTB_TOP_H_  // guard
+#ifndef VERILATED_VTB_SNAKE_MAP_H_
+#define VERILATED_VTB_SNAKE_MAP_H_  // guard
 
 #include "verilated.h"
 
-class Vtb_top__Syms;
-class Vtb_top___024root;
+class Vtb_snake_map__Syms;
+class Vtb_snake_map___024root;
 class VerilatedVcdC;
 
 // This class is the main interface to the Verilated model
-class alignas(VL_CACHE_LINE_BYTES) Vtb_top VL_NOT_FINAL : public VerilatedModel {
+class alignas(VL_CACHE_LINE_BYTES) Vtb_snake_map VL_NOT_FINAL : public VerilatedModel {
   private:
     // Symbol table holding complete model state (owned by this class)
-    Vtb_top__Syms* const vlSymsp;
+    Vtb_snake_map__Syms* const vlSymsp;
 
   public:
 
@@ -36,19 +36,19 @@ class alignas(VL_CACHE_LINE_BYTES) Vtb_top VL_NOT_FINAL : public VerilatedModel 
 
     // Root instance pointer to allow access to model internals,
     // including inlined /* verilator public_flat_* */ items.
-    Vtb_top___024root* const rootp;
+    Vtb_snake_map___024root* const rootp;
 
     // CONSTRUCTORS
     /// Construct the model; called by application code
     /// If contextp is null, then the model will use the default global context
     /// If name is "", then makes a wrapper with a
     /// single model invisible with respect to DPI scope names.
-    explicit Vtb_top(VerilatedContext* contextp, const char* name = "TOP");
-    explicit Vtb_top(const char* name = "TOP");
+    explicit Vtb_snake_map(VerilatedContext* contextp, const char* name = "TOP");
+    explicit Vtb_snake_map(const char* name = "TOP");
     /// Destroy the model; called (often implicitly) by application code
-    virtual ~Vtb_top();
+    virtual ~Vtb_snake_map();
   private:
-    VL_UNCOPYABLE(Vtb_top);  ///< Copying not allowed
+    VL_UNCOPYABLE(Vtb_snake_map);  ///< Copying not allowed
 
   public:
     // API METHODS

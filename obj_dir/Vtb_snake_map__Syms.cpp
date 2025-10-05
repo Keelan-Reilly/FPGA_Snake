@@ -1,24 +1,24 @@
 // Verilated -*- C++ -*-
 // DESCRIPTION: Verilator output: Symbol table implementation internals
 
-#include "Vtb_top__pch.h"
-#include "Vtb_top.h"
-#include "Vtb_top___024root.h"
+#include "Vtb_snake_map__pch.h"
+#include "Vtb_snake_map.h"
+#include "Vtb_snake_map___024root.h"
 
 // FUNCTIONS
-Vtb_top__Syms::~Vtb_top__Syms()
+Vtb_snake_map__Syms::~Vtb_snake_map__Syms()
 {
 #ifdef VM_TRACE
     if (__Vm_dumping) _traceDumpClose();
 #endif  // VM_TRACE
 }
 
-void Vtb_top__Syms::_traceDump() {
+void Vtb_snake_map__Syms::_traceDump() {
     const VerilatedLockGuard lock(__Vm_dumperMutex);
     __Vm_dumperp->dump(VL_TIME_Q());
 }
 
-void Vtb_top__Syms::_traceDumpOpen() {
+void Vtb_snake_map__Syms::_traceDumpOpen() {
     const VerilatedLockGuard lock(__Vm_dumperMutex);
     if (VL_UNLIKELY(!__Vm_dumperp)) {
         __Vm_dumperp = new VerilatedVcdC();
@@ -29,13 +29,13 @@ void Vtb_top__Syms::_traceDumpOpen() {
     }
 }
 
-void Vtb_top__Syms::_traceDumpClose() {
+void Vtb_snake_map__Syms::_traceDumpClose() {
     const VerilatedLockGuard lock(__Vm_dumperMutex);
     __Vm_dumping = false;
     VL_DO_CLEAR(delete __Vm_dumperp, __Vm_dumperp = nullptr);
 }
 
-Vtb_top__Syms::Vtb_top__Syms(VerilatedContext* contextp, const char* namep, Vtb_top* modelp)
+Vtb_snake_map__Syms::Vtb_snake_map__Syms(VerilatedContext* contextp, const char* namep, Vtb_snake_map* modelp)
     : VerilatedSyms{contextp}
     // Setup internal state of the Syms class
     , __Vm_modelp{modelp}
@@ -43,7 +43,7 @@ Vtb_top__Syms::Vtb_top__Syms(VerilatedContext* contextp, const char* namep, Vtb_
     , TOP{this, namep}
 {
         // Check resources
-        Verilated::stackCheck(90);
+        Verilated::stackCheck(1252);
     // Configure time unit / time precision
     _vm_contextp__->timeunit(-9);
     _vm_contextp__->timeprecision(-12);

@@ -98,42 +98,37 @@ module top #(
 
   // Snake body FIFO
   wire [10:0] head_xy   = {head_x, head_y};
+  wire [10:0] tail_xy;
   wire [7:0]  snake_len;
   wire       ate_pos;
+
+  // push/pop wires shared across modules
+  wire push_w = gated_tick;
+  wire pop_w  = gated_tick && !ate_pos;  // no pop when eating (grow)
+
   snake_body #(.XW(6), .YW(5), .MAX_LEN(128)) sb (
     .clk     (pix_clk),
     .reset   (reset_pix),
-    .push    (gated_tick),
-    .pop (gated_tick && !ate_pos),        // don't pop when we eat (grow)
+    .push    (push_w),
+    .pop     (pop_w),        // don't pop when we eat (grow)
     .data_in (head_xy),
-    .data_out(),
+    .data_out(tail_xy),
     .length  (snake_len)
   );
 
-  // Self‐collision detection (sim-only: peeks sb.mem[])
-  wire self_hit = 1'b0;         // temporarily disable
-
-  //Latch game over
-  always @(posedge pix_clk or posedge reset_pix) begin
-    if (reset_pix)
-      game_over <= 0;
-    else if (self_hit)
-      game_over <= 1;
+  // ----- Next position (combinational) for collision query -----
+  reg [5:0] next_x;
+  reg [4:0] next_y;
+  always @* begin
+    next_x = head_x;
+    next_y = head_y;
+    case (dir_reg)
+      2'b00: next_y = (head_y == 0)          ? (GRID_H-1) : head_y - 1;
+      2'b01: next_x = (head_x == GRID_W-1)   ? 0          : head_x + 1;
+      2'b10: next_y = (head_y == GRID_H-1)   ? 0          : head_y + 1;
+      2'b11: next_x = (head_x == 0)          ? (GRID_W-1) : head_x - 1;
+    endcase
   end
-
-
-  /* integer i;
-  always @(posedge clk or posedge reset) begin
-    if (reset) begin
-      self_hit <= 0;
-    end else if (game_tick && !game_over) begin
-      self_hit <= 0;
-      for (i = 0; i < snake_len; i = i+1) begin
-        if ({head_x,head_y} == sb.mem[i])
-          self_hit <= 1;
-      end
-    end
-  end */
 
   // Apple gen & eat
   wire [5:0] apple_x;
@@ -151,15 +146,32 @@ module top #(
   assign ate_pos = (head_x == apple_x) && (head_y == apple_y);
   wire apple_on = (cell_x == apple_x) && (cell_y == apple_y);    // draw only
 
-  // Body‐on temporarily disabled
-  /* wire body_on =
-       (snake_len>0 && cell_x==sb.mem[0][10:5] && cell_y==sb.mem[0][4:0])
-    || (snake_len>1 && cell_x==sb.mem[1][10:5] && cell_y==sb.mem[1][4:0])
-    || (snake_len>2 && cell_x==sb.mem[2][10:5] && cell_y==sb.mem[2][4:0])
-    || (snake_len>3 && cell_x==sb.mem[3][10:5] && cell_y==sb.mem[3][4:0]); */
+  // ===== Occupancy + collision (synth-friendly) =====
+  wire body_on;
+  wire self_hit_now;
 
-  wire body_on = 1'b0;
+  snake_map #(.XW(6), .YW(5), .GRID_W(GRID_W), .GRID_H(GRID_H)) sm (
+    .clk        (pix_clk),
+    .reset      (reset_pix),
+    .tick       (gated_tick),
+    .eat        (ate_pos),
+    .head_xy    (head_xy),
+    .tail_xy    (tail_xy),
+    .q_x        (cell_x),
+    .q_y        (cell_y),
+    .body_on    (body_on),
+    .next_x     (next_x),
+    .next_y     (next_y),
+    .will_pop   (pop_w),
+    .self_hit_now(self_hit_now)
+  );
 
+  // Latch game over
+  always @(posedge pix_clk or posedge reset_pix) begin
+    if (reset_pix)         game_over <= 1'b0;
+    else if (self_hit_now) game_over <= 1'b1;
+  end
+  
   // Final video mux w/ game‐over checker
   wire [2:0] over_color = (hcount[4] ^ vcount[4]) ? 3'b100 : 3'b001;
   wire [2:0] rgb_bits = game_over
